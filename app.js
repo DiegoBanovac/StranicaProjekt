@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'https://imigranti.onrender.com'
+  origin: 'https://stranicaprojektfrontend.onrender.com'
 }));
 
 app.get("/data", (req, res) => {
